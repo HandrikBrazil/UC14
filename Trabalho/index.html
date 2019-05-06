@@ -1,0 +1,61 @@
+<!Doctype html>
+<html lang="PT-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" 
+		content="width=device-width, initial-scale=1">
+		<title>Site Grupo Aztech</title>
+		<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="container centro">
+			<header class="banner">
+				<h1>Site Versão Mobile</h1>
+			</header>
+			<nav class="menu negrito maiusculo">
+				<a class="btn" href="#">&#9776;</a>
+				<ul id="links">
+					<li><a href="index.html">home</a></li>
+					<li><a href="empresa.html">empresa</a></li>
+					<li><a href="produtos.html">produtos</a></li>
+					<li><a href="servicos.html">serviços</a></li>
+					<li><a href="contato.html">contato</a></li>
+					<li><a href="cadastrar.html">cadastrar</a></li>
+				</ul>
+			</nav>
+			<section class="conteudo flex">
+				<article class="coluna">
+					<h2>Notícias</h2>			
+					<p>Mi Smart Plug Wi-Fi: conheça a tomada smart da Xiaomi</p>
+					<p>A Mi Smart Plug é uma tomada inteligente da Xiaomi que pode ser controlada por meio da rede Wi-Fi. O aparelho oferece ao usuário a possibilidade de regular o consumo de energia ajuda também a economizar nesse sentido. O modelo está à venda no e-commerce por algo em torno de US$ 16, ou R$ 65 em conversão direta, sem impostos. Vale lembrar que a fabricante não atua oficialmente no Brasil, o que significa ausência de suporte e também do padrão de três pinos, exclusivo do país.</p>
+				</article>
+				
+				<article class="coluna">
+					<h2>Dicas</h2>			
+					<p> Nunca acredite em tudo que você ler, pois pode ser uma verdadeira mentira.</p>
+					<p> As fake news vem dominando o mundo com notícias falsas de coisas que nunca aconteceram, pode atingir até você quando ler algum e conta para outra pessoa, a mentira vai se espalhando e deixando polemicas por onde passa, acabando prejudicando muitas coisas que nunca fizeram nada de errado.</p>
+				</article>			
+			</section>
+			<section class="fotos flex">
+				<div class="imagem">
+					<img src="imagens/xiamo.jpg" />
+				</div>	
+								
+				<div class="imagem">
+					<img src="imagens/fakenews.jpg" />
+				</div>				
+			</section>
+			<footer class="rodape">
+				Copyright &copy; 2019 - Todos os direitos reservados Luís Fabrício de Azevedo
+			</footer>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  $(".btn").click(function(){
+				$("#links").toggle();
+			  });
+			});
+		</script>
+	</body>
+</html>

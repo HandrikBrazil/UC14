@@ -1,0 +1,63 @@
+<!Doctype html>
+<html lang="PT-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" 
+		content="width=device-width, initial-scale=1">
+		<title>Site Grupo Aztech</title>
+		<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="container centro">
+			<header class="banner">
+				<h1>Site Versão Mobile</h1>
+			</header>
+			<nav class="menu negrito maiusculo">
+				<a class="btn" href="#">&#9776;</a>
+				<ul id="links">
+					<li><a href="index.html">home</a></li>
+					<li><a href="empresa.html">empresa</a></li>
+					<li><a href="produtos.html">produtos</a></li>
+					<li><a href="servicos.html">serviços</a></li>
+					<li><a href="contato.html">contato</a></li>
+					<li><a href="cadastrar.html">cadastrar</a></li>
+				</ul>
+			</nav>
+			<section class="conteudo flex">
+				<article class="coluna">
+					<h2>Manutenção</h2>			
+					<p>Fazemos troca de componentes eletrônicos de diversas placas.</p>
+					<p>Os reparos só seram possíveis se os modelos dos resistores e demais componentes eletrônicas sejam compativeis com os componentes que termos em nosso estoque, caso contrario sugerimos a troca da placa por um modelo mais atual a qual podemos fazer seu circuito ganhar vida novamente fazendo sua felicidade.</p>
+				</article>
+				
+				<article class="coluna">
+					<h2>Reposição</h2>			
+					<p> O grupo aztech tem diversos modelos de controles universais e de cortes.</p>
+					<p> Contamos com a ponta entregar em toda região aonde termos afiliais, termos controles para reposição, centrais e sensores para que suas vendas nunca parem.</p>
+				</article>			
+			</section>
+			<section class="fotos flex">
+				<div class="imagem">
+					<img src="imagens/circuito1.jpg" />
+				</div>	
+				<div class="imagem">
+					<img src="imagens/circuito2.jpg" />
+				</div>					
+				<div class="imagem">
+					<img src="imagens/circuito3.jpg" />
+				</div>				
+			</section>
+			<footer class="rodape">
+				Copyright &copy; 2019 - Todos os direitos reservados Luís Fabrício de Azevedo
+			</footer>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  $(".btn").click(function(){
+				$("#links").toggle();
+			  });
+			});
+		</script>
+	</body>
+</html>
